@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Wabi-Sabi Design Agency</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="styles.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Marck+Script&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Pacifico&display=swap" rel="stylesheet">
+</head>
+
+<!--HEADER-->
+
+<header>
+  <div class="head-title"><h1>Wabi-Sabi</h1></div>
+  <div id="home" class="navigation"><nav>
+  <ul>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#contact" class="contact">Contact Us!</a></li>
+  </ul>
+</nav></div>
+</header>
+
+<!--MAIN-->
+  <body>
+
+<!--PHRASE-->
+<div class="phrase">
+  <h2> Imperfect ideas. Perfect designs. </h2>
+</div>
+
+
+<!--PROJECTS-->
+<div id="projects">
+  <h2>Projects</h2>
+<div class="grid-p">
+<div class="proj-grid"><div class="bg1"><h3>Example 1</h3><p>Here will be a little description</p></div></div>
+<div class="proj-grid"><div class="bg2"><h3>Example 2</h3><p>Here will be a little description</p></div></div>
+<div class="proj-grid"><div class="bg3"><h3>Example 3</h3><p>Here will be a little description</p></div></div>
+</div>
+</div>
+
+
+<!--SERVICES-->
+
+<div id="services">
+<h2>SERVICES</h2>
+
+<div class="grid-s">
+  <div class="s-bg1"><div class="serv-grid"><div class="top"><h3>Brand Design</h3></div></div></div>
+  <div class="s-bg2"><div class="serv-grid"><div class="top"><h3>Logo Design</h3></div></div></div>
+    <div class="s-bg3"><div class="serv-grid"><div class="bot"><h3>Project Management</h3></div></div></div>
+      <div class="s-bg4"><div class="serv-grid"><div class="bot"><h3>Web Design</h3></div></div></div>
+</div>
+
+</div>
+
+<!--ABOUT-->
+
+<div id="about">
+<h2>ABOUT</h2>
+
+<div class="grid-a">
+  <div class="a-img"><img src="https://images.unsplash.com/photo-1537511446984-935f663eb1f4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"></div>
+  <div class="a-img"><img src="https://images.unsplash.com/photo-1573496358961-3c82861ab8f4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80"></div>
+  <div class="a-img"><img src="https://images.unsplash.com/photo-1580894732930-0babd100d356?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"></div>
+  <div class="a-img"><img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"></div>
+</div>
+
+<p>Wabi-Sabi is a multi-disciplinary, independently owned design studio.</p>
+
+  <p>Our work encompasses graphics and identity, strategy and positioning, products and packaging, exhibitions and installations, websites and digital experiences, advertising and communications, data visualizations and typefaces, sound and motion.</p> 
+  <p>Our 23 partners are all practicing designers, and whether working collaboratively or independently, they do so in friendship.</p>
+  <p>Our structure is unique. We are the only major design studio where the owners of the business are the creators of the work and serve as the primary contact for every client. This reflects our conviction that great design cannot happen without passion, intelligence and — above all — personal commitment, and is demonstrated by a portfolio that spans five decades, many industries, and clients of every size.</p>
+
+</div>
+
+  <!--CONTACT US-->
+
+
+  <div id="contact-box">
+    <div class="c-grid">
+    <h2 class="contact-title">CONTACT US</h2>
+    
+<div class="contact-info"><div id="contact">
+  <h2>Contact Info</h2>
+
+  <h3>E-Mail</h3>
+  <p>info@wabi-sabi.com</p>
+
+  <h3>Phone</h3>
+  <p>+372 5350 8768</p>
+
+  <h3>Address</h3>
+  <p>Lembitu 9-109, Tallinn, Estonia</p>
+</div>
+</div>
+
+  <form action="//submit.form" id="ContactUs100" method="post" onsubmit="return ValidateForm(this);">
+    <script type="text/javascript">
+    function ValidateForm(frm) {
+    if (frm.Name.value == "") { alert('Put your fucking name!'); frm.Name.focus(); return false; }
+    if (frm.FromEmailAddress.value == "") { alert('Are your parents siblings? Put your fucking e-mail!'); frm.FromEmailAddress.focus(); return false; }
+    if (frm.FromEmailAddress.value.indexOf("@") < 1 || frm.FromEmailAddress.value.indexOf(".") < 1) { alert('Don try to fuck with me bro.'); frm.FromEmailAddress.focus(); return false; }
+    if (frm.Comments.value == "") { alert('Write something you dumbass.'); frm.Comments.focus(); return false; }
+    return true; }
+    </script>
+    <table style="width:100%;max-width:550px;border:0;" cellpadding="8" cellspacing="0">
+    <tr> <td>
+    <label for="Name">Name*:</label>
+    </td> <td>
+    <input name="Name" type="text" maxlength="60" style="width:100%;max-width:250px;" />
+    </td> </tr> <tr> <td>
+    <label for="PhoneNumber">Phone number:</label>
+    </td> <td>
+    <input name="PhoneNumber" type="text" maxlength="43" style="width:100%;max-width:250px;" />
+    </td> </tr> <tr> <td>
+    <label for="FromEmailAddress">Email address*:</label>
+    </td> <td>
+    <input name="FromEmailAddress" type="text" maxlength="90" style="width:100%;max-width:250px;" />
+    </td> </tr> <tr> <td>
+    <label for="Comments">Comments*:</label>
+    </td> <td>
+    <textarea name="Comments" rows="7" cols="40" style="width:100%;max-width:350px;"></textarea>
+    </td> </tr>
+    </table>
+    <button class="send">SEND</button>
+    </form>
+  </div>
+</div>
+
+  <!--FOOTER-->
+<footer>
+  <div><p>Copyright Wabi-Sabi 2022 | by PFC</p></div>
+  <a href="#home"><div class="home-button"><h4>^</h4></div></a>
+</footer>
+</body>
+</html>
